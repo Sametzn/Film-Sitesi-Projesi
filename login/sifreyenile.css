@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image:url(TR-tr-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    font-family: 'Electrolize', sans-serif;
+}
+.signup-form{
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+
+}
+.signup-form form{
+    
+    padding: 20px;
+    background-color: #000000;
+    opacity: 0.9;
+    
+}
+.signup-form form h1{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 40px;
+
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    
+}
+.txt{
+    margin: 10px 0;
+    border-radius: 6px;
+    background-color: #333;
+}
+.signup-btn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: red;
+    opacity: 1;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+.signup-btn:hover{
+    transform: scale(0.96);
+    background: white;
+}

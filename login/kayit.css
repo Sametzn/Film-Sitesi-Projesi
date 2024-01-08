@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/TR-tr-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  font-family: 'Electrolize', sans-serif;
+}
+/*! navbar start  */
+.navbar{
+  background-color: #000;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 50px;
+}
+.menu-list{
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  padding: 0; 
+  margin-left: 50px;
+ 
+}
+.menu-list-item{
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+  
+}
+.menu-list-item.active{
+  font-weight: bold;
+}
+.menu-list-item:hover{
+  font-weight: bold;
+}
+.logo{
+  width: 200px;
+  color: white;
+  padding-top: 40px;
+}
+
+.profile-picture{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-container{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  column-gap: 20px;
+}
+.profile-text-container i{
+  padding-right:7px ;
+}
+.giris{
+  border: 2px solid;
+  color: #c22139;
+  border-radius: 30px;
+  font-weight: 300px; 
+}   
+.giris:hover{
+  background-color: #c22139;
+  font-weight: bold;
+  border-color: #c22139;
+}
+.kayıt{
+  color: #adbac7; 
+}
+.kayıt:hover{
+  font-weight: bold;
+}
+.profile-text-container a{
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px;
+  padding: 10px;
+  display: flex;
+  float: right; 
+}  
+.profile-text-container a:hover{
+  color: pink;
+}
+.profile-text-container{
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  line-height: 1 ;
+}
+.toggle-icon{
+  color: goldenrod;
+  margin-top: 3px;
+}
+.toggle{
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  position: relative;
+
+}
+.toggle-ball{
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: 1px;
+  transition: 0.5s ease all;
+
+}
+/*! navbar end */
+.signup-form {
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.signup-form form {
+  padding: 20px;
+  background-color: #000000;
+  opacity: 0.9;
+}
+.signup-form form h1 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 40px;
+}
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+}
+.txt {
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #333;
+}
+
+.invalid-feedback {
+  color: red;
+}
+.signup-btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: red;
+  opacity: 1;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+  display: block;
+}
+.signup-btn:hover {
+  transform: scale(0.96);
+  background: white;
+}
+.signup-form form a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+.signup-form form a:hover {
+  color: red;
+}
